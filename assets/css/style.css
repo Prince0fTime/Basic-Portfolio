@@ -1,0 +1,398 @@
+/*credit for original code
+ http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+
+  with modifications from me Prince0fTime
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col-1-3 {
+    width: 33.33%;
+    background: #eaeaed;
+    height: 600px;
+    padding-top: 38px;
+    /*text-align: center;*/
+    width: 280px;
+    border-radius: 6px;
+    margin: 1.5% 1.5% 50px 1.7%;
+}
+
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+.container,
+.grid {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.head_line {
+    background: #4aaaa5;
+    height: 100px;
+    padding-top: 38px;
+    text-align: center;
+    width: 200px;
+    float: left;
+    border-bottom: 5px solid #dddddd;
+    margin: 0 280px 0 280px;
+}
+
+.page-section-1-2 {
+    height: 20px;
+    text-align: center;
+    width: 100px;
+    float: left;
+    border-right: 1px solid #dddddd;
+    color: #dddddd;
+    margin: 30px 0 20px 0px;
+    /*used for debug
+        background: #4aaaa5;
+    */
+}
+
+.page-section-3 {
+    height: 20px;
+    text-align: center;
+    width: 100px;
+    float: left;
+    color: #dddddd;
+    margin: 30px 0 20px 0px;
+    text-colo
+    /*used for debug
+        background: #4aaaa5;
+    */
+}
+
+.head-nav {
+    background: #ffffff;
+    height: 100px;
+    width: 100%;
+    float: top;
+    margin-bottom: 50px;
+    border-bottom: 5px solid #dddddd;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1,
+h3,
+h4,
+h5 {
+    font-size: 150%;
+    margin-bottom: 22px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    margin-bottom: 22px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.name-color {
+    color: #ffffff;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 50px;
+    color: #000;
+}
+
+.btn-alt {
+    border: 1px solid #505050;
+    padding: 10px 30px;
+    background: rgb(255, 255, 255);
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.main-section {
+    padding: 22px 80px 66px 80px;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+/*.primary-footer small {
+    float: left;
+}
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}*/
+
+.primary-footer-nav {
+    height: 55px;
+    width: 100%;
+    /*margin: 1% 10px 10px 18%;*/
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+}
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-place {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*
+  ========================================
+  Primary background
+  ========================================
+*/
+
+.main-background {
+    background-image: url("../images/cork-wallet.png");
+}
+
+/*
+  ========================================
+  Primary about section
+  ========================================
+*/
+
+.about-me {
+    color: #4aaaa5;
+    height: 50px;
+    width: 800px;
+    /*float: top;*/
+    margin-bottom: 50px;
+    border-bottom: 5px solid #dddddd;
+}
+
+.about-borders-and-background {
+    background: #ffffff;
+    height: 600px;
+    padding-top: 38px;
+    /*text-align: center;*/
+    width: 960px;
+    border: 5px solid #dddddd;
+    margin-bottom: 150px;
+}
+
+.test2 {
+    border-radius: 6px;
+}
+
+.pics {
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
