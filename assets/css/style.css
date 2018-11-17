@@ -152,6 +152,7 @@ table {
 }
 
 .col-1 {
+    z-index: 0;
     width: 200px;
     height: 200px;
     position: relative;
@@ -161,6 +162,7 @@ table {
     display: inline-block;
 }
 .col-2 {
+    z-index: 0;
     width: 200px;
     height: 200px;
     position: relative;
@@ -187,6 +189,7 @@ table {
 
 
 .tag {
+    z-index: 0;
     float: left;
     position: absolute;
     left: 0px;
@@ -386,6 +389,7 @@ p {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 20;
 }
 
 .text-place {
