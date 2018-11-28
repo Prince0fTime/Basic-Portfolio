@@ -318,6 +318,7 @@ h5 {
 
 p,
 a {
+    text-decoration: none;
     margin-bottom: 22px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
